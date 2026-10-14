@@ -121,34 +121,3 @@ while True:
         print("Exited successfully!")
         break
 
-#   PSEUDOCODE
-
-"""
-menu: 1. Show all books, 2. Add books, 3. Search book
-
-if show all books:
-    with openfunction opening file:
-        reader = csv.dictreader
-        for loop:
-            print(books : price)
-
-if add book:
-    input of name of book
-    input of price of book
-    with openfunction opening file:
-        writer = csv,dictwriter
-        writerow({"book":book, "price":price})
-
-if search book:
-    input of name of book:
-    with openfunction opening file:
-        reader ....
-        for loop reader:
-            if search book == each line[book name]
-            print book with price
-
-if exit:
-    exit the programn
-    
-
-"""
